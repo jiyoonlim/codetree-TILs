@@ -1,6 +1,5 @@
 c = input()
 a = float(input())
 b = float(input())
-print(c)
-print(round(a, 2))
-print(round(b, 2))
+
+print(f"{c}\n{a:.2f}\n{b:.2f}")
