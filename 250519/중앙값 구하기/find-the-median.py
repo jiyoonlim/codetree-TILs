@@ -1,4 +1,16 @@
-from statistics import mode
 a,b,c = map(int, input().split())
 
-print(mode([a,b,c]))
+if a > b:
+    if c > a:
+        print(a)
+    elif b > c:
+        print(b)
+    else:
+        print(c)
+else:
+    if c > b:
+        print(b)
+    elif a > c:
+        print(a)
+    else:
+        print(c)
