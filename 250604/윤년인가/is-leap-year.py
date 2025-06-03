@@ -8,4 +8,4 @@ if y % 4 == 0:
 
 else:
     # 평년
-    print("fasle")
+    print("false")
