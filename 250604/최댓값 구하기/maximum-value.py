@@ -10,3 +10,5 @@ elif b > a:
         print(b)
     elif c > b:
         print(c)
+    else:
+        print(b)
