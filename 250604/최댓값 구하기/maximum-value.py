@@ -5,6 +5,8 @@ if a > b:
         print(a)
     elif c > a:
         print(c)
+    else:
+        print(a)
 elif b > a:
     if a > c:
         print(b)
