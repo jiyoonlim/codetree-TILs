@@ -5,7 +5,7 @@ if a > b:
         print(a)
     elif c > a:
         print(c)
-else:
+elif b > a:
     if a > c:
         print(b)
     elif c > b:
