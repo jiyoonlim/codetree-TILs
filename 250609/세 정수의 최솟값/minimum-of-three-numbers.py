@@ -1,19 +1,10 @@
-a,b,c = map(int, input().split())
-minimum = 0
-if a > b:
-    if b > c:
-        minimum = c
-    elif c > a:
-        minimum = b
-    else:
-        minimum = a
+inp=input()
+arr=inp.split()
+a=int(arr[0]);b=int(arr[1]);c=int(arr[2])
 
-if b > a:
-    if a > c:
-        minimum = c
-    elif c > b:
-        minimum = a
-    else:
-        minimum = b
-
-print(minimum)
+if a<=b and a<=c :
+    print(a)
+elif b<=c :
+    print(b)
+else:
+    print(c)
